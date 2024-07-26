@@ -1,0 +1,14 @@
+﻿<Project>
+    <PropertyGroup>
+        <ModName>$(RootNamespace)</ModName>
+        <ModAuthor>Millzy</ModAuthor>
+        <ModVersion>0.1.0</ModVersion>
+        <ModDescription>.</ModDescription>
+        <ModId>dev.millzy.$(ModName)</ModId>
+        <ModWebsiteUrl>https://github.com/MillzyDev/Insecticide</ModWebsiteUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ModDependencies Include="LavaGang-MelonLoader-0.6.4" />
+    </ItemGroup>
+</Project> 

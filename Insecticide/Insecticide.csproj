@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        
+        <Title>$(ModName)</Title>
+        <Copyright>Copyright (c) 2024-present Frederick (Millzy) Mills</Copyright>
+        <Version>$(ModVersion)</Version>
+        <FileVersion>$(ModVersion)</FileVersion>
+        <NeutralLanguage>en</NeutralLanguage>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>$(GameDir)\MelonLoader\net6\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Common">
+        <HintPath>$(GameDir)\MelonLoader\net6\Il2CppInterop.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Generator">
+        <HintPath>$(GameDir)\MelonLoader\net6\Il2CppInterop.Generator.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Runtime">
+        <HintPath>$(GameDir)\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2Cppmscorlib">
+        <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONELAB\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSLZ.Marrow">
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppSLZ.Marrow.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppUniTask">
+        <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONELAB\MelonLoader\Il2CppAssemblies\Il2CppUniTask.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppUniTask.Linq">
+        <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONELAB\MelonLoader\Il2CppAssemblies\Il2CppUniTask.Linq.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>$(GameDir)\MelonLoader\net6\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="Insecticide.csproj.user" />
+    </ItemGroup>
+
+    <Import Project="$(SolutionDir)\Mod.props" />
+    <Import Project="$(SolutionDir)\Mod.targets" />
+</Project>
