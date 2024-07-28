@@ -8,5 +8,6 @@ General bug fix mod for BONELAB.
 
 ## Current Fixes
 * Pallet Reloading
+* Hand getting stuck to BodyMall when missing avatar is favourited
 
 To report other bugs to be fixed, please create an [issue](https://github.com/MillzyDev/Insecticide/issues).
