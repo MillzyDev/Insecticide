@@ -29,19 +29,22 @@
         <HintPath>$(GameDir)\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="Il2Cppmscorlib">
-        <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONELAB\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSLZ.Marrow">
         <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppSLZ.Marrow.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppUniTask">
-        <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONELAB\MelonLoader\Il2CppAssemblies\Il2CppUniTask.dll</HintPath>
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppUniTask.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppUniTask.Linq">
-        <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONELAB\MelonLoader\Il2CppAssemblies\Il2CppUniTask.Linq.dll</HintPath>
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\Il2CppUniTask.Linq.dll</HintPath>
       </Reference>
       <Reference Include="MelonLoader">
         <HintPath>$(GameDir)\MelonLoader\net6\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.TextMeshPro">
+        <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine">
         <HintPath>$(GameDir)\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
