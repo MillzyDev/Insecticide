@@ -2,6 +2,12 @@
 using Il2CppCysharp.Threading.Tasks;
 using Il2CppSLZ.Marrow.Warehouse;
 
+/*
+ * Fixes the reload pallet command not working.
+ * This occurs due to (presumably) a miscommunication - In the base game LoadPalletFromFolderAsync
+ * expects the path to the pallet json, but is instead provided with the path to the mod's folder.
+ */
+
 namespace Insecticide.HarmonyPatches {
     [HarmonyPatch(typeof(AssetWarehouse))]
     [HarmonyPatch(nameof(AssetWarehouse.ReloadPallet))]
