@@ -2,6 +2,7 @@
 using Il2CppSLZ.Bonelab;
 
 /*
+ * Author: CheckerBoard
  * Fixes the skybox rendering in the spectator camera by setting the clear flags to "Skybox" instead of "Nothing".
  */
 
