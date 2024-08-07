@@ -2,9 +2,9 @@
     <PropertyGroup>
         <ModName>$(RootNamespace)</ModName>
         <ModAuthor>Millzy</ModAuthor>
-        <ModVersion>0.2.0</ModVersion>
+        <ModVersion>0.3.0</ModVersion>
         <ModDescription>A general bug fix mod for BONELAB.</ModDescription>
-        <ModId>dev.millzy.$(ModName)</ModId>
+        <ModId>$(ModAuthor).$(ModName)</ModId>
         <ModWebsiteUrl>https://github.com/MillzyDev/Insecticide</ModWebsiteUrl>
     </PropertyGroup>
 
