@@ -2,13 +2,13 @@
     <PropertyGroup>
         <ModName>$(RootNamespace)</ModName>
         <ModAuthor>Millzy</ModAuthor>
-        <ModVersion>0.3.0</ModVersion>
+        <ModVersion>0.4.0</ModVersion>
         <ModDescription>A general bug fix mod for BONELAB.</ModDescription>
         <ModId>$(ModAuthor).$(ModName)</ModId>
         <ModWebsiteUrl>https://github.com/MillzyDev/Insecticide</ModWebsiteUrl>
     </PropertyGroup>
 
     <ItemGroup>
-        <ModDependencies Include="LavaGang-MelonLoader-0.6.4" />
+        <ModDependencies Include="LavaGang-MelonLoader-0.6.5" />
     </ItemGroup>
 </Project> 
