@@ -12,6 +12,11 @@ using UnityEngine;
  * the fail case for TryGetCrate is not accounted for.
  */
 
+/*
+ * FIXED IN PATCH 6
+ */
+
+/*
 namespace Insecticide.HarmonyPatches {
     [HarmonyPatch(typeof(AvatarsPanelView))]
     [HarmonyPatch(nameof(AvatarsPanelView.LoadFavoriteAvatars))]
@@ -63,3 +68,4 @@ namespace Insecticide.HarmonyPatches {
         }
     }
 }
+*/

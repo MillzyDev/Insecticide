@@ -6,6 +6,11 @@ using Il2CppSLZ.Bonelab;
  * Fixes the skybox rendering in the spectator camera by setting the clear flags to "Skybox" instead of "Nothing".
  */
 
+/*
+ * FIXED IN PATCH 6
+ */
+
+/*
 namespace Insecticide.HarmonyPatches {
     [HarmonyPatch(typeof(RigScreenOptions))]
     [HarmonyPatch(nameof(RigScreenOptions.SetSpectatorCamera))]
@@ -19,3 +24,4 @@ namespace Insecticide.HarmonyPatches {
         }
     }
 }
+*/
