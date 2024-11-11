@@ -1,3 +1,8 @@
+## 0.4.0
+* Removed Skybox patch
+* Removed BodyMall Hand patch
+* Updated to MelonLoader 0.6.5
+
 ## 0.3.0
 * Fixes the skybox rendering in the spectator camera
 
