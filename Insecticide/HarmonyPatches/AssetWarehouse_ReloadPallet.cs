@@ -19,7 +19,7 @@ namespace Insecticide.HarmonyPatches {
         {
             if (!__instance.TryGetScannable(barcode, out Pallet pallet))
             {
-                // todo error
+                // todo: exception
                 return false;
             }
 
